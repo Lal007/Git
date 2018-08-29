@@ -73,7 +73,7 @@ int main()
         for(int j = 0; j < M1; j++)
         {
             p2[i][j] = 0;
-            for (int m = 0; m < M1; m++)
+            for (int m = 0; m < N1; m++)
                 p2[i][j] += p[i][m] * p1[m][j];
 
         }
