@@ -7,7 +7,7 @@ int main()
 {
 
     int N,M;
-    cout << "Vvedite razmer massiva1 РУССКИЙ: ";
+    cout << "Vvedite razmer massiva1: ";
     cin >> N >> M;
 
     double **p;
@@ -36,7 +36,7 @@ int main()
     cin >> N1 >> M1;
     if (N != M1)
     {
-        cout << "Ostanovis";
+        cout << "TEBE NELZYA!!!";
         return 0;
     }
 
