@@ -24,10 +24,11 @@ void bubble(int* (ar), int length)
 
 int main()
 {
-    int size = 0;
-    int ar[size];
+    int size = 5;
+
     cout << "Vvedite razmer massiva" << endl;
     cin >> size;
+    int ar[size];
     cout << "Vvedite massiv" << endl;
 
     for (int i = 0; i <= size; i++ )
@@ -47,7 +48,7 @@ int main()
             for (int m = 0; m <= size; m++)
 
     {
-    cout << "Element " << m << "raven: " << ar[m] << endl;
+    cout << "Element " << m << " raven: " << ar[m] << endl;
     }
             return 0;
 }
