@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void bubble(int* (ar), int length)
+void bubble(int* ar, int length)
 {
     for (int i = length - 1; i > 0; i--)
     {
