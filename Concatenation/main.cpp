@@ -67,6 +67,11 @@ int main()
 
     cin >>  mas2;
 
+    if (mas1 == 0 || mas2 == 0){
+        cout << "Nulevie massivi ne priemlimi";
+        return 0;
+    }
+
     arr1 = new int[mas1];
     arr2 = new int[mas2];
     vvod(arr1, arr2, mas1, mas2);
