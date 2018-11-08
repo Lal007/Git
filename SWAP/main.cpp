@@ -3,24 +3,27 @@
 
 using namespace std;
 
-template<typename T,typename T1, typename T2>
+template<typename T, typename T1>
 
-void swap(T1 a, T2 b){
+void swap(T &a, T1 &b){
 
     T1 buf = 0;
     buf = a;
-    a = (T1)b;
+    a = b;
     b = buf;
+   cout << "a = " << a << " " << "b = " << b << endl;
 }
 
 int main()
 {
 
-    double a = 10;
+    float a = 10;
     double b = 2.3;
     cout << "a = " << a << " " << "b = " << b << endl;
     swap (a, b);
-    cout << "a = " << a << " " << "b = " << b << endl;
+    //cout << "a = " << a << " " << "b = " << b << endl;
+
+
 
 
     return 0;
