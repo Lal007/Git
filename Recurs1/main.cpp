@@ -49,9 +49,9 @@ int main()
 
         cout << "Nedopustimo";
     } else {
-        //int arr[n];
-        //Fak (n, arr);
-        cout << Fuk(n);
+        int arr[n];
+        Fak (n, arr);
+        cout << "Rekursiv factorial " << Fuk(n);
     }
 
     return 0;
